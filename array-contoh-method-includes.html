@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array-contoh-method-includes</title>
+</head>
+<body>
+    <script>
+    // Method Includes 
+    var tanaman = ["Padi", "Kacang", "Jagung", "Kedelai"]; 
+ 
+    // apakah kacang sudah ada di dalam array tanaman? 
+    var adaKacang = tanaman.includes("Kacang"); 
+  
+    console.log(adaKacang); // -> true 
+  
+    // apakah bayam ada? 
+    var adaBayam = tanaman.includes("Bayam"); 
+  
+    console.log(adaBayam); // -> false
+
+    document.write(adaKacang);
+    document.write(adaBayam);
+    </script>
+</body>
+</html>
